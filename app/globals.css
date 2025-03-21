@@ -4,40 +4,37 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-inter: "Inter", sans-serif;
-  --font-poppins: "Poppins", sans-serif;
-}
-@theme {
-  --color-s1: #ecece9;
-  --color-light-blue: #7ed0ff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  /* --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-   */
-  --font-inter: var(--font-inter);
-  --font-poppins: var(--font-poppins);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@theme {
+  --color-s1: #080d27;
+  --color-s2: #0c1838;
+  --color-s3: #334679;
+  --color-s4: #1959ad;
+  --color-s5: #263466;
+  --color-p1: #2ef2ff;
+  --color-p2: #3c52d9;
+  --color-p3: #c8ea80;
+  --color-p4: #eaedff;
+  --color-p5: #c4cbf5;
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} */
-
-@utility container {
-  margin-inline: auto;
-  padding-inline: 64px;
-  max-width: 1252px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  /* font-family: ; */
-  font-family: var(--font-poppins);
+  background: var(--color-s2);
+  color: var(--color-p4);
+  font-family: var(--font-inter);
 }
