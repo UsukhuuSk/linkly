@@ -34,7 +34,7 @@
 }
 
 body {
-  background: var(--color-s2);
+  background: var(--color-s1);
   color: var(--color-p4);
   font-family: var(--font-inter);
 }
